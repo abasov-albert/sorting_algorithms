@@ -15,7 +15,7 @@ namespace SortLab
             {
                 numbers1.Add(rand.Next((100)));
             }
-            /*
+            
             for (int i = 0; i < numbers1.Count; i++)
             {
                 Console.WriteLine(numbers1[i]);
@@ -25,7 +25,6 @@ namespace SortLab
             Console.WriteLine("Sorted:");
 
             SelectionSort(numbers1);
-            */
 
             List<int>[] numbers2 = new List<int>[10];
 
